@@ -14,6 +14,6 @@ public class WebController {
 
     @GetMapping("/healthCheck")
     public String healthCheck() {
-        return String.format("OK-1 %s", value);
+        return String.format("OK-2 %s", value);
     }
 }
